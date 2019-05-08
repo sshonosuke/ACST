@@ -1,6 +1,7 @@
 # ACST (Aggregated Conditional Score Test for Rare Variant Detection)
-Original article
-Sugasawa, S., Noma, H., Otani, T., Nishino, J. and Matsui, S. (2017).  An efficient and flexible test for rare variant effects.  `European Journal of Human Genetics` 25, 752-757.  https://dx.doi.org/10.1038/ejhg.2017.43
+Original article:
+
+Sugasawa, S., Noma, H., Otani, T., Nishino, J. and Matsui, S. (2017).  An efficient and flexible test for rare variant effects.  *European Journal of Human Genetics* 25, 752-757.  https://dx.doi.org/10.1038/ejhg.2017.43
 
 This is a tutorial on applying aggregated conditional score test (ACST) for rare variant effects.
 Required input for this testing procedure is a vector of disease status (1: case, 0: control) and a genotype matrix with each low corresponding to a vector of numbers of minor alleles (0,1 or 2) in each individual.
