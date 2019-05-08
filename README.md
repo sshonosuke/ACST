@@ -1,18 +1,8 @@
 # ACST
-Aggregated Conditional Score Test for Rare Variant Test
-
----
-title: "ACST (Aggregated Conditional Score Test)"
-output: html_document
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+Aggregated Conditional Score Test for Rare Variant Detection
 
 This is a tutorial on applying aggregated conditional score test (ACST) for rare variant effects.
 Required input for this testing procedure is a vector of disease status (1: case, 0: control) and a genotype matrix with each low corresponding to a vector of numbers of minor alleles (0,1 or 2) in each individual.
-
 
 ## Example data
 In this tutorial, we use a simulated dataset contained in *example.RData*.
@@ -22,7 +12,6 @@ The file consists of disease status `y` and genotype matrix `X` simulated from a
 ```{r cars}
 load("example.RData")
 ```
-
 
 Note: this dataset was generated under the following assumptions;
 
@@ -51,6 +40,3 @@ ACST(y,X,B=500,C=0)
 # p-value of correlated ACST (ACST-C).
 ACST(y,X,B=500,C=1)
 ```
-
-
-
